@@ -14,3 +14,6 @@ git push - отправка в гит изменений
 git pull
 
 ```
+
+установка requirements.txt библиотек
+pip install -r requirements.txt 
