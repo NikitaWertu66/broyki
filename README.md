@@ -17,3 +17,23 @@ git pull
 
 установка requirements.txt библиотек
 pip install -r requirements.txt 
+
+Описание
+Десктопное приложение для семантического анализа английского текста с использованием моделей Hugging Face / Sentence-Transformers.
+Пользователь вводит несколько предложений (по одному предложению в строке), выбирает модель и получает матрицу косинусных схожестей и список наиболее похожих пар.
+Установка
+1. Установите Python 3.8+ (рекомендуется 3.9-3.11).
+2. Создайте виртуальное окружение (рекомендуется):
+   ```bash
+   python -m venv venv
+   source venv/bin/activate   # Linux / macOS
+   venv\Scripts\activate    # Windows (PowerShell: .\venv\Scripts\Activate.ps1)
+   ```
+3. Установите зависимости:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+Файлы
+BroykiProject.py — основной GUI-приложение
+requirements.txt — список зависимостей
